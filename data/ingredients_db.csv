@@ -1,0 +1,301 @@
+Ingredient,Function,Comedogenic Rating,Irritancy,Good For,Bad For,Description
+Water (Tears of Lys),Solvent,0,0,All,None,The base of most potions. Pure and untainted.
+Glycerin (Essence of Highgarden),Humectant,0,0,Dry,None,Draws moisture like a Tyrell sponge.
+Niacinamide,Antioxidant,0,0,Acne,None,Fortifies the skin barrier like the Wall.
+Salicylic Acid (Wildfire Extract),Exfoliant,0,1,Oily;Acne,Dry;Sensitive,A potent BHA that burns away impurities in pores.
+Fragrance (Perfume of Qarth),Perfume,0,4,None,Sensitive,"Provides scent, but treacherous to sensitive skin."
+Dimethicone (Valyrian Resin),Emollient,1,0,Dry,None,Forms a protective shield impervious to the elements.
+Retinol (Blood of the Dragon),Antioxidant,0,3,Aging,Sensitive,"Powerful anti-aging elixir, handle with care."
+Vitamin C (Sun of Dorne),Antioxidant,0,1,All,Sensitive,Brightens and protects like the Dornish sun.
+Hyaluronic Acid (Riverrun Tears),Humectant,0,0,Dry,None,Holds immense amounts of water to flood the skin with hydration.
+Alcohol Denat (Milk of the Poppy),Astringent,0,5,Oily,Dry;Sensitive,"Numbing and drying, use only when necessary."
+Nectar of Moonwood,Solvent,4,3,Aging,None,A Maester's solvent crafted in the Citadel for skincare incantations.
+Potassium Sunstone,Surfactant,1,5,All,Sensitive,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Elixir of Dragonbone,Thickener,1,1,Oily;Dry,None,A Maester's thickener crafted in the Citadel for skincare incantations.
+Dust of Benzoate,Antioxidant,2,4,Dry;Sensitive,Oily,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Sodium Iron,Exfoliant,5,3,Dry,Oily,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Hydrolyzed Sunstone,Soothing,4,1,Oily,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+Elixir of Lavender,Humectant,4,1,Sensitive;Oily,Acne,A Maester's humectant crafted in the Citadel for skincare incantations.
+Propyl Hyaluronate,Emollient,3,4,All;Dry,None,A Maester's emollient crafted in the Citadel for skincare incantations.
+Sap of Obsidian,Preservative,0,3,Dry,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Cetearyl Iron,Thickener,1,2,All,Sensitive;Sensitive,A Maester's thickener crafted in the Citadel for skincare incantations.
+Methyl Gold,Humectant,2,0,All;Aging,Acne;Dry,A Maester's humectant crafted in the Citadel for skincare incantations.
+Dust of Obsidian,Astringent,1,4,Dry,Acne,A Maester's astringent crafted in the Citadel for skincare incantations.
+Nectar of Peptide,Emollient,3,5,Sensitive,None,A Maester's emollient crafted in the Citadel for skincare incantations.
+Ethyl Sulfate,Soothing,3,4,Oily;All,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Potassium Paraben,Antioxidant,5,4,Aging;Oily,Dry,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Ethyl Gold,Humectant,4,3,Aging,Sensitive,A Maester's humectant crafted in the Citadel for skincare incantations.
+Dust of Iron,Humectant,5,3,Aging;Dry,Dry,A Maester's humectant crafted in the Citadel for skincare incantations.
+Ash of Obsidian,Antioxidant,0,0,Aging,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Sodium Valyrian Steel,Solvent,0,1,Sensitive,Dry;Oily,A Maester's solvent crafted in the Citadel for skincare incantations.
+Ethyl Chloride,Soothing,3,0,Sensitive,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+Nectar of Obsidian,Exfoliant,1,3,All,Oily;Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Cetearyl Alcohol,Astringent,2,5,Oily;Aging,Sensitive,A Maester's astringent crafted in the Citadel for skincare incantations.
+Cetearyl Gold,Preservative,3,1,Oily,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+Extract of Dragonbone,Emollient,5,4,Sensitive;All,Sensitive,A Maester's emollient crafted in the Citadel for skincare incantations.
+Potassium Lavender,Soothing,0,4,Acne,Dry;Sensitive,A Maester's soothing crafted in the Citadel for skincare incantations.
+Elixir of Peptide,Exfoliant,2,3,Sensitive,Oily;Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Hydrolyzed Weirwood,Antioxidant,0,3,Acne,Sensitive;Acne,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+PPG- Rose,Thickener,1,0,Acne,Dry,A Maester's thickener crafted in the Citadel for skincare incantations.
+Resin of Alcohol,Soothing,5,0,Acne,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Butyl Rose,Exfoliant,5,3,Acne;All,Oily,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Elixir of Alcohol,Exfoliant,2,4,Dry,Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Oil of Ceramide,Exfoliant,3,1,Dry;Oily,Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+PEG- Benzoate,Humectant,4,4,Sensitive;Aging,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Butyl Obsidian,Exfoliant,2,5,Aging;Acne,Dry;Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Methyl Dragonbone,Exfoliant,3,1,Aging;Oily,Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Extract of Glycol,Thickener,5,0,Oily,Oily,A Maester's thickener crafted in the Citadel for skincare incantations.
+Resin of Valyrian Steel,Antioxidant,2,1,Acne,Acne,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Cetearyl Dragonbone,Solvent,2,1,Aging,Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+Resin of Hyaluronate,Preservative,1,3,Acne;All,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Propyl Glycol,Thickener,2,2,Dry;Aging,None,A Maester's thickener crafted in the Citadel for skincare incantations.
+Sap of Sunstone,Emollient,3,4,Sensitive,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+PPG- Ceramide,Exfoliant,1,4,Aging,Acne;Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Ash of Lavender,Emollient,5,5,Sensitive,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+Hydrolyzed Rose,Surfactant,5,2,Dry,Oily,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Elixir of Iron,Preservative,2,5,Aging,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Propyl Obsidian,Emollient,3,3,Dry,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+Methyl Peptide,Preservative,2,2,All,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Sodium Acid,Solvent,0,3,Aging;Aging,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Cetearyl Glycol,Surfactant,3,4,Sensitive;Dry,Sensitive,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Hydrolyzed Iron,Humectant,0,3,Sensitive,Dry,A Maester's humectant crafted in the Citadel for skincare incantations.
+Extract of Rose,Antioxidant,2,5,Aging,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Propyl Alcohol,Antioxidant,1,4,Oily,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Nectar of Valyrian Steel,Solvent,0,3,All,Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+PEG- Peptide,Soothing,3,5,Sensitive,Oily;Acne,A Maester's soothing crafted in the Citadel for skincare incantations.
+Oil of Alcohol,Astringent,4,4,Dry;Oily,Dry;Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+Methyl Paraben,Exfoliant,2,3,Aging;Oily,Acne;Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Ethyl Ceramide,Preservative,0,1,All;Acne,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Sap of Glycol,Humectant,1,2,All;All,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Butyl Benzoate,Preservative,4,1,Sensitive;All,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+Methyl Moonwood,Antioxidant,3,3,Sensitive;All,Oily,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Dust of Glycol,Soothing,0,5,Acne,Sensitive,A Maester's soothing crafted in the Citadel for skincare incantations.
+Methyl Sunstone,Surfactant,4,3,All;Acne,None,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Methyl Iron,Humectant,0,3,Dry,Dry,A Maester's humectant crafted in the Citadel for skincare incantations.
+Ethyl Valyrian Steel,Antioxidant,4,4,Oily,Oily,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Sap of Paraben,Solvent,1,0,Aging;Sensitive,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Elixir of Rose,Emollient,1,1,Acne,Oily,A Maester's emollient crafted in the Citadel for skincare incantations.
+Extract of Benzoate,Surfactant,2,1,Acne,Dry,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Essence of Paraben,Preservative,1,3,Acne,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Methyl Hyaluronate,Thickener,5,4,Acne,None,A Maester's thickener crafted in the Citadel for skincare incantations.
+Hydrolyzed Lavender,Preservative,1,4,Aging;Acne,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Extract of Peptide,Antioxidant,2,2,Acne,Oily;Dry,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Elixir of Benzoate,Humectant,2,4,Aging;Oily,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Potassium Dragonbone,Emollient,4,0,Dry,None,A Maester's emollient crafted in the Citadel for skincare incantations.
+Extract of Gold,Exfoliant,2,1,Dry,Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Dust of Peptide,Humectant,5,3,Acne,Dry,A Maester's humectant crafted in the Citadel for skincare incantations.
+Methyl Acid,Humectant,3,1,Dry,Sensitive,A Maester's humectant crafted in the Citadel for skincare incantations.
+PPG- Lavender,Antioxidant,0,3,All;Acne,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Sap of Valyrian Steel,Astringent,1,1,Dry,None,A Maester's astringent crafted in the Citadel for skincare incantations.
+Sodium Gold,Solvent,5,1,Sensitive,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+PEG- Dragonbone,Preservative,1,4,Dry,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+Nectar of Sulfate,Exfoliant,2,5,Acne;All,Oily;Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Propyl Ceramide,Astringent,2,3,All,Sensitive;Dry,A Maester's astringent crafted in the Citadel for skincare incantations.
+Tears of Iron,Soothing,3,0,Dry,Oily,A Maester's soothing crafted in the Citadel for skincare incantations.
+Ethyl Glycol,Emollient,2,1,All,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+Oil of Moonwood,Exfoliant,1,5,Aging;Acne,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Sap of Ceramide,Humectant,5,4,Dry,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Propyl Chloride,Preservative,3,3,Sensitive,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Potassium Acid,Exfoliant,1,1,Dry,Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Extract of Moonwood,Surfactant,2,0,Dry,Sensitive;Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Methyl Lavender,Astringent,5,2,Aging;Sensitive,Acne,A Maester's astringent crafted in the Citadel for skincare incantations.
+Sodium Ceramide,Thickener,2,3,Oily,Oily,A Maester's thickener crafted in the Citadel for skincare incantations.
+Cetearyl Valyrian Steel,Emollient,1,1,Sensitive,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+Potassium Gold,Astringent,2,1,Dry,Sensitive,A Maester's astringent crafted in the Citadel for skincare incantations.
+Elixir of Sulfate,Preservative,0,1,Sensitive,Acne;Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Essence of Acid,Thickener,2,0,Acne,Dry,A Maester's thickener crafted in the Citadel for skincare incantations.
+Essence of Hyaluronate,Soothing,0,2,Sensitive,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+Butyl Glycol,Surfactant,3,4,Acne;Aging,Oily;Sensitive,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Essence of Gold,Emollient,1,2,Oily,Oily,A Maester's emollient crafted in the Citadel for skincare incantations.
+Sap of Hyaluronate,Soothing,2,5,All;Dry,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+PEG- Acid,Antioxidant,5,4,Oily,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Tears of Alcohol,Preservative,0,4,All,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Essence of Lavender,Emollient,2,1,Acne,None,A Maester's emollient crafted in the Citadel for skincare incantations.
+Ethyl Acid,Thickener,5,2,Acne,Sensitive,A Maester's thickener crafted in the Citadel for skincare incantations.
+Potassium Peptide,Astringent,5,2,Dry,Acne,A Maester's astringent crafted in the Citadel for skincare incantations.
+Nectar of Acid,Solvent,5,2,Oily,None,A Maester's solvent crafted in the Citadel for skincare incantations.
+Potassium Sulfate,Humectant,0,0,Sensitive,Sensitive;Acne,A Maester's humectant crafted in the Citadel for skincare incantations.
+Essence of Valyrian Steel,Soothing,2,4,Aging,Oily,A Maester's soothing crafted in the Citadel for skincare incantations.
+Tears of Dragonbone,Thickener,1,1,All,None,A Maester's thickener crafted in the Citadel for skincare incantations.
+Cetearyl Chloride,Humectant,4,4,Aging,Sensitive,A Maester's humectant crafted in the Citadel for skincare incantations.
+PPG- Moonwood,Emollient,3,2,Acne,Sensitive,A Maester's emollient crafted in the Citadel for skincare incantations.
+Tears of Chloride,Humectant,5,1,Oily,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+Cetearyl Paraben,Soothing,5,3,Dry,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Resin of Weirwood,Humectant,5,5,Acne,Dry;None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Resin of Benzoate,Humectant,3,1,All;Sensitive,Sensitive,A Maester's humectant crafted in the Citadel for skincare incantations.
+PEG- Ceramide,Solvent,4,0,Aging,Acne,A Maester's solvent crafted in the Citadel for skincare incantations.
+Oil of Iron,Astringent,4,4,Dry,Sensitive,A Maester's astringent crafted in the Citadel for skincare incantations.
+Dust of Valyrian Steel,Exfoliant,1,3,Sensitive;Dry,Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Ethyl Obsidian,Exfoliant,1,3,All;Acne,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Ethyl Peptide,Soothing,1,5,Oily,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+PEG- Lavender,Preservative,5,2,All,Sensitive;None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Sodium Lavender,Antioxidant,3,0,Oily;Sensitive,Dry,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Propyl Valyrian Steel,Thickener,2,3,All,Oily,A Maester's thickener crafted in the Citadel for skincare incantations.
+Butyl Chloride,Surfactant,2,2,Aging,Dry,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Tears of Valyrian Steel,Exfoliant,2,2,Aging,Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Hydrolyzed Alcohol,Humectant,1,5,Aging;All,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Ash of Dragonbone,Exfoliant,0,2,All,Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Resin of Glycol,Astringent,0,1,Aging,Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+Dust of Rose,Antioxidant,3,3,All;Acne,Oily,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Ash of Sulfate,Preservative,0,5,All,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Cetearyl Ceramide,Preservative,3,2,Oily;Oily,Acne;Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Dust of Alcohol,Solvent,0,5,Aging,Acne,A Maester's solvent crafted in the Citadel for skincare incantations.
+Sodium Dragonbone,Soothing,1,2,Dry,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+Ash of Peptide,Emollient,3,1,Dry;Acne,Sensitive,A Maester's emollient crafted in the Citadel for skincare incantations.
+Essence of Sunstone,Astringent,0,5,Sensitive,Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+PEG- Chloride,Humectant,2,2,Sensitive;Sensitive,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+Butyl Peptide,Soothing,5,3,Aging,Sensitive,A Maester's soothing crafted in the Citadel for skincare incantations.
+PEG- Valyrian Steel,Humectant,2,5,Sensitive,Sensitive,A Maester's humectant crafted in the Citadel for skincare incantations.
+Sodium Peptide,Emollient,2,5,Aging,Sensitive,A Maester's emollient crafted in the Citadel for skincare incantations.
+Nectar of Hyaluronate,Thickener,2,3,All,Dry,A Maester's thickener crafted in the Citadel for skincare incantations.
+PPG- Acid,Preservative,4,1,Oily,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Cetearyl Obsidian,Emollient,2,4,Acne,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+Propyl Benzoate,Exfoliant,5,2,Acne;Acne,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Essence of Weirwood,Astringent,5,3,Aging,Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+Hydrolyzed Dragonbone,Solvent,3,2,Aging;Sensitive,Dry;Acne,A Maester's solvent crafted in the Citadel for skincare incantations.
+Extract of Weirwood,Preservative,5,2,All,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+PPG- Glycol,Soothing,1,1,Dry;All,Dry;Acne,A Maester's soothing crafted in the Citadel for skincare incantations.
+Essence of Dragonbone,Thickener,1,4,All;All,Acne,A Maester's thickener crafted in the Citadel for skincare incantations.
+Ethyl Paraben,Exfoliant,0,5,Dry,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Resin of Acid,Preservative,1,1,All;Sensitive,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Dust of Acid,Soothing,1,2,All,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Butyl Ceramide,Thickener,2,3,Aging,Acne,A Maester's thickener crafted in the Citadel for skincare incantations.
+Sap of Acid,Astringent,4,4,Aging,Dry;Sensitive,A Maester's astringent crafted in the Citadel for skincare incantations.
+Hydrolyzed Sulfate,Exfoliant,4,2,Dry,Oily,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Extract of Iron,Exfoliant,1,4,Dry,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Nectar of Iron,Thickener,3,5,All,Sensitive,A Maester's thickener crafted in the Citadel for skincare incantations.
+Hydrolyzed Acid,Astringent,2,4,Acne,Dry,A Maester's astringent crafted in the Citadel for skincare incantations.
+Propyl Dragonbone,Surfactant,3,0,Oily,Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Ash of Weirwood,Astringent,0,3,All,Sensitive,A Maester's astringent crafted in the Citadel for skincare incantations.
+Ethyl Dragonbone,Exfoliant,4,5,Acne,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Cetearyl Peptide,Humectant,1,1,Sensitive;Sensitive,Acne,A Maester's humectant crafted in the Citadel for skincare incantations.
+Cetearyl Acid,Preservative,1,3,All;Aging,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Ethyl Sunstone,Humectant,5,2,Acne;Dry,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+Methyl Weirwood,Emollient,4,4,Acne,Dry,A Maester's emollient crafted in the Citadel for skincare incantations.
+Nectar of Glycol,Emollient,2,1,Aging;Oily,Dry,A Maester's emollient crafted in the Citadel for skincare incantations.
+Butyl Lavender,Soothing,0,3,Acne,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Methyl Glycol,Surfactant,0,0,Dry,Sensitive,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Sodium Alcohol,Soothing,1,0,Dry,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+Butyl Sunstone,Soothing,4,5,Aging,Oily;Acne,A Maester's soothing crafted in the Citadel for skincare incantations.
+Tears of Obsidian,Surfactant,4,3,Sensitive,Oily;Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Tears of Acid,Preservative,5,3,Acne,Oily,A Maester's preservative crafted in the Citadel for skincare incantations.
+Ethyl Rose,Surfactant,5,1,Aging,Oily,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Butyl Weirwood,Antioxidant,5,5,Acne,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Extract of Hyaluronate,Surfactant,3,0,Oily,Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Potassium Glycol,Surfactant,5,4,Oily,Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Nectar of Sunstone,Solvent,5,1,Oily,Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+Tears of Lavender,Solvent,2,1,Dry,Oily,A Maester's solvent crafted in the Citadel for skincare incantations.
+Tears of Rose,Exfoliant,0,5,Oily;Sensitive,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Methyl Benzoate,Exfoliant,4,1,Aging,Oily;Oily,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Cetearyl Moonwood,Preservative,5,3,All,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+Elixir of Hyaluronate,Surfactant,1,5,Oily,Dry,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Methyl Ceramide,Surfactant,0,0,All,Dry,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Sodium Benzoate,Solvent,4,5,Aging,Acne,A Maester's solvent crafted in the Citadel for skincare incantations.
+Butyl Iron,Solvent,2,5,Sensitive,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Potassium Iron,Emollient,5,0,Sensitive;Oily,Sensitive,A Maester's emollient crafted in the Citadel for skincare incantations.
+Dust of Gold,Exfoliant,5,4,Oily,Oily,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Nectar of Rose,Exfoliant,2,4,All,Acne;Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Methyl Obsidian,Solvent,3,5,All;All,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+PEG- Sulfate,Preservative,1,2,Acne,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Ash of Rose,Solvent,3,2,All,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Oil of Dragonbone,Exfoliant,5,1,Sensitive,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Essence of Ceramide,Solvent,4,4,All,Oily,A Maester's solvent crafted in the Citadel for skincare incantations.
+Essence of Benzoate,Exfoliant,4,3,All,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Tears of Hyaluronate,Exfoliant,0,2,Aging;Acne,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Dust of Weirwood,Soothing,4,4,Sensitive,Sensitive,A Maester's soothing crafted in the Citadel for skincare incantations.
+Butyl Sulfate,Solvent,4,0,Dry,Acne;Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+Butyl Dragonbone,Surfactant,1,0,All,Oily;Oily,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Essence of Moonwood,Astringent,5,2,Dry,None,A Maester's astringent crafted in the Citadel for skincare incantations.
+Resin of Rose,Humectant,3,0,Aging,Acne,A Maester's humectant crafted in the Citadel for skincare incantations.
+PPG- Sulfate,Solvent,3,5,Aging;Oily,Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+Tears of Benzoate,Surfactant,1,0,Dry,Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Extract of Ceramide,Preservative,4,3,All,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Resin of Sunstone,Solvent,5,2,Aging,Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+Hydrolyzed Hyaluronate,Humectant,1,5,Aging;Acne,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+Oil of Valyrian Steel,Preservative,3,5,Sensitive,Oily,A Maester's preservative crafted in the Citadel for skincare incantations.
+Sap of Iron,Solvent,5,4,Dry,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Sap of Peptide,Antioxidant,2,5,Dry;Sensitive,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Methyl Sulfate,Exfoliant,1,5,All,Oily;Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Resin of Moonwood,Exfoliant,5,2,Dry,Sensitive,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Tears of Ceramide,Soothing,0,2,Acne,Oily,A Maester's soothing crafted in the Citadel for skincare incantations.
+Hydrolyzed Paraben,Surfactant,0,1,All,Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Propyl Gold,Preservative,0,2,Sensitive,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+PEG- Alcohol,Soothing,2,0,Aging;Oily,Sensitive,A Maester's soothing crafted in the Citadel for skincare incantations.
+PEG- Weirwood,Emollient,4,0,All,Oily,A Maester's emollient crafted in the Citadel for skincare incantations.
+Ash of Acid,Exfoliant,4,4,Sensitive,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Elixir of Chloride,Astringent,2,1,Dry;Aging,Dry,A Maester's astringent crafted in the Citadel for skincare incantations.
+Oil of Weirwood,Astringent,5,4,Oily;Aging,Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+PEG- Rose,Astringent,5,4,Aging,None,A Maester's astringent crafted in the Citadel for skincare incantations.
+Hydrolyzed Moonwood,Surfactant,5,4,Aging;Acne,None,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Essence of Rose,Surfactant,2,2,Sensitive,None,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Nectar of Dragonbone,Preservative,3,3,Oily;Sensitive,Acne;None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Propyl Sulfate,Soothing,3,0,Sensitive,Acne,A Maester's soothing crafted in the Citadel for skincare incantations.
+Ash of Moonwood,Thickener,4,3,Dry;Oily,Sensitive,A Maester's thickener crafted in the Citadel for skincare incantations.
+Extract of Obsidian,Thickener,4,3,Oily,Sensitive,A Maester's thickener crafted in the Citadel for skincare incantations.
+Methyl Rose,Astringent,4,3,Sensitive;Oily,None,A Maester's astringent crafted in the Citadel for skincare incantations.
+Ash of Chloride,Astringent,0,4,Aging,Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+Ash of Valyrian Steel,Preservative,0,1,Sensitive;Sensitive,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+Butyl Valyrian Steel,Antioxidant,3,3,All;Dry,None,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Nectar of Weirwood,Surfactant,1,5,Sensitive,None,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Propyl Paraben,Soothing,4,5,Oily,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Sap of Lavender,Emollient,3,3,All,Acne,A Maester's emollient crafted in the Citadel for skincare incantations.
+Extract of Chloride,Soothing,2,0,Sensitive;Acne,Oily,A Maester's soothing crafted in the Citadel for skincare incantations.
+Potassium Obsidian,Solvent,4,0,All,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Butyl Acid,Solvent,0,4,Acne;Oily,None,A Maester's solvent crafted in the Citadel for skincare incantations.
+Resin of Peptide,Surfactant,5,4,Aging,Acne,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Essence of Alcohol,Preservative,2,2,Sensitive,Dry;Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Resin of Dragonbone,Exfoliant,1,5,Acne,None,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Dust of Sunstone,Humectant,1,3,Sensitive,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+Resin of Chloride,Preservative,2,1,Aging,Oily;None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Resin of Gold,Astringent,1,5,Dry;All,Acne,A Maester's astringent crafted in the Citadel for skincare incantations.
+Sodium Chloride,Humectant,4,0,Acne;Dry,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+PPG- Gold,Preservative,3,5,Acne,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Cetearyl Rose,Exfoliant,1,5,Aging,Dry,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+PPG- Obsidian,Humectant,2,4,All,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.
+Sap of Chloride,Preservative,4,4,Sensitive,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Dust of Ceramide,Solvent,0,3,Acne;All,None,A Maester's solvent crafted in the Citadel for skincare incantations.
+Butyl Paraben,Solvent,5,3,Dry,Dry;Oily,A Maester's solvent crafted in the Citadel for skincare incantations.
+Nectar of Gold,Preservative,2,4,Sensitive;Aging,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Resin of Iron,Humectant,2,4,Dry,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Sap of Benzoate,Preservative,2,4,Oily;Aging,Dry,A Maester's preservative crafted in the Citadel for skincare incantations.
+Extract of Acid,Solvent,1,3,Acne,Sensitive,A Maester's solvent crafted in the Citadel for skincare incantations.
+Cetearyl Benzoate,Surfactant,1,4,Oily,Dry,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Ethyl Alcohol,Soothing,4,4,Aging,Acne,A Maester's soothing crafted in the Citadel for skincare incantations.
+PEG- Paraben,Thickener,1,3,Aging,Sensitive,A Maester's thickener crafted in the Citadel for skincare incantations.
+Tears of Paraben,Soothing,5,0,Aging,Dry,A Maester's soothing crafted in the Citadel for skincare incantations.
+Ethyl Moonwood,Preservative,2,5,Sensitive,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Cetearyl Sunstone,Surfactant,4,2,Dry,Dry,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Resin of Sulfate,Exfoliant,4,3,All,Oily,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Dust of Hyaluronate,Preservative,2,1,Sensitive,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Tears of Glycol,Antioxidant,1,0,Acne,Acne,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Methyl Valyrian Steel,Astringent,2,4,All,Sensitive;Acne,A Maester's astringent crafted in the Citadel for skincare incantations.
+Ethyl Lavender,Emollient,4,5,Aging;Acne,Oily,A Maester's emollient crafted in the Citadel for skincare incantations.
+Potassium Valyrian Steel,Solvent,4,2,Dry;Acne,Oily,A Maester's solvent crafted in the Citadel for skincare incantations.
+PPG- Iron,Preservative,2,4,Oily,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Ash of Alcohol,Solvent,1,1,All,Dry;Dry,A Maester's solvent crafted in the Citadel for skincare incantations.
+Cetearyl Lavender,Preservative,5,4,Dry;Acne,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Dust of Chloride,Antioxidant,4,0,Sensitive;All,Dry;Acne,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Cetearyl Weirwood,Thickener,2,3,All;Dry,Dry,A Maester's thickener crafted in the Citadel for skincare incantations.
+PEG- Moonwood,Surfactant,2,1,Aging,Acne;Oily,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Potassium Alcohol,Soothing,2,0,Sensitive,Dry;Acne,A Maester's soothing crafted in the Citadel for skincare incantations.
+Nectar of Benzoate,Preservative,3,1,Oily,None,A Maester's preservative crafted in the Citadel for skincare incantations.
+Propyl Iron,Thickener,1,2,Aging,Acne,A Maester's thickener crafted in the Citadel for skincare incantations.
+Sap of Sulfate,Soothing,3,5,Oily,Sensitive,A Maester's soothing crafted in the Citadel for skincare incantations.
+PPG- Dragonbone,Surfactant,1,3,Oily,Oily,A Maester's surfactant crafted in the Citadel for skincare incantations.
+Propyl Sunstone,Astringent,5,5,Acne,Acne,A Maester's astringent crafted in the Citadel for skincare incantations.
+Tears of Sunstone,Solvent,5,5,Dry,Acne,A Maester's solvent crafted in the Citadel for skincare incantations.
+Sodium Paraben,Astringent,3,4,Oily;Oily,Oily,A Maester's astringent crafted in the Citadel for skincare incantations.
+Extract of Sulfate,Emollient,5,1,Sensitive,None,A Maester's emollient crafted in the Citadel for skincare incantations.
+Ash of Gold,Thickener,1,5,Dry,Acne,A Maester's thickener crafted in the Citadel for skincare incantations.
+Sap of Weirwood,Surfactant,1,1,Dry;Oily,None,A Maester's surfactant crafted in the Citadel for skincare incantations.
+PPG- Hyaluronate,Preservative,5,4,Acne,Acne,A Maester's preservative crafted in the Citadel for skincare incantations.
+Ash of Sunstone,Exfoliant,4,5,All;Aging,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Butyl Gold,Humectant,5,5,All;Aging,None,A Maester's humectant crafted in the Citadel for skincare incantations.
+Resin of Obsidian,Thickener,4,5,Dry;Acne,Oily,A Maester's thickener crafted in the Citadel for skincare incantations.
+Ash of Ceramide,Solvent,3,5,Acne,Oily,A Maester's solvent crafted in the Citadel for skincare incantations.
+Resin of Lavender,Humectant,1,3,All,Sensitive,A Maester's humectant crafted in the Citadel for skincare incantations.
+Oil of Obsidian,Preservative,5,5,Aging,Sensitive,A Maester's preservative crafted in the Citadel for skincare incantations.
+Essence of Peptide,Antioxidant,0,2,Aging;Acne,Sensitive,A Maester's antioxidant crafted in the Citadel for skincare incantations.
+Ash of Iron,Exfoliant,1,4,Acne;Sensitive,Acne,A Maester's exfoliant crafted in the Citadel for skincare incantations.
+Nectar of Paraben,Soothing,3,0,Aging,None,A Maester's soothing crafted in the Citadel for skincare incantations.
+Elixir of Sunstone,Humectant,3,4,All,Oily,A Maester's humectant crafted in the Citadel for skincare incantations.

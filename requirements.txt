@@ -1,0 +1,8 @@
+streamlit
+pandas
+thefuzz
+plotly
+python-Levenshtein
+pytesseract
+Pillow
+opencv-python

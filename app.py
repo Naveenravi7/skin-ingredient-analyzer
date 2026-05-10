@@ -83,13 +83,7 @@ def get_analyzer():
     if not os.path.exists(db_path):
         db_path = os.path.join(os.path.dirname(__file__), 'data', 'ingredients_db.csv')
     
-    # If the file exists but has < 300 ingredients, delete it so it regenerates
-    if os.path.exists(db_path):
-        try:
-            if len(pd.read_csv(db_path)) < 300:
-                os.remove(db_path)
-        except Exception as e:
-            print("Error checking db size:", e)
+
             
     return IngredientAnalyzer(db_path=db_path)
 

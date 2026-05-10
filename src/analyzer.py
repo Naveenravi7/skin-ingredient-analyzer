@@ -14,7 +14,6 @@ except ImportError:
 class IngredientAnalyzer:
     def __init__(self, db_path='data/ingredients_db.csv'):
         self.db_path = db_path
-        self._ensure_database_exists()
         
         try:
             self.db = pd.read_csv(self.db_path)
@@ -24,66 +23,7 @@ class IngredientAnalyzer:
             self.db = pd.DataFrame()
             self.ingredient_names = []
 
-    def _ensure_database_exists(self):
-        """Generates a 300-ingredient GoT-themed database if it doesn't exist."""
-        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
-        
-        # Check if it exists and has enough rows
-        if os.path.exists(self.db_path):
-            try:
-                df = pd.read_csv(self.db_path)
-                if len(df) >= 300:
-                    return
-            except:
-                pass
-                
-        print("Generating 300-ingredient database...")
-        functions = ['Solvent', 'Humectant', 'Emollient', 'Antioxidant', 'Preservative', 'Surfactant', 'Thickener', 'Exfoliant', 'Soothing', 'Astringent']
-        good_for_options = ['All', 'Dry', 'Oily', 'Acne', 'Sensitive', 'Aging']
-        bad_for_options = ['None', 'Dry', 'Oily', 'Sensitive', 'Acne']
-        
-        base_ingredients = [
-            ("Water (Tears of Lys)", "Solvent", 0, 0, "All", "None", "The base of most potions. Pure and untainted."),
-            ("Glycerin (Essence of Highgarden)", "Humectant", 0, 0, "Dry", "None", "Draws moisture like a Tyrell sponge."),
-            ("Niacinamide", "Antioxidant", 0, 0, "Acne", "None", "Fortifies the skin barrier like the Wall."),
-            ("Salicylic Acid (Wildfire Extract)", "Exfoliant", 0, 1, "Oily;Acne", "Dry;Sensitive", "A potent BHA that burns away impurities in pores."),
-            ("Fragrance (Perfume of Qarth)", "Perfume", 0, 4, "None", "Sensitive", "Provides scent, but treacherous to sensitive skin."),
-            ("Dimethicone (Valyrian Resin)", "Emollient", 1, 0, "Dry", "None", "Forms a protective shield impervious to the elements."),
-            ("Retinol (Blood of the Dragon)", "Antioxidant", 0, 3, "Aging", "Sensitive", "Powerful anti-aging elixir, handle with care."),
-            ("Vitamin C (Sun of Dorne)", "Antioxidant", 0, 1, "All", "Sensitive", "Brightens and protects like the Dornish sun."),
-            ("Hyaluronic Acid (Riverrun Tears)", "Humectant", 0, 0, "Dry", "None", "Holds immense amounts of water to flood the skin with hydration."),
-            ("Alcohol Denat (Milk of the Poppy)", "Astringent", 0, 5, "Oily", "Dry;Sensitive", "Numbing and drying, use only when necessary.")
-        ]
-        
-        prefixes = ['Sodium', 'Potassium', 'Cetearyl', 'Methyl', 'Propyl', 'Butyl', 'Ethyl', 'PEG-', 'PPG-', 'Hydrolyzed', 'Extract of', 'Essence of', 'Tears of', 'Oil of', 'Ash of', 'Dust of', 'Sap of', 'Resin of', 'Nectar of', 'Elixir of']
-        roots = ['Hyaluronate', 'Paraben', 'Alcohol', 'Glycol', 'Acid', 'Sulfate', 'Chloride', 'Benzoate', 'Peptide', 'Ceramide', 'Rose', 'Lavender', 'Dragonbone', 'Weirwood', 'Iron', 'Gold', 'Valyrian Steel', 'Obsidian', 'Moonwood', 'Sunstone']
-        
-        data = [list(ing) for ing in base_ingredients]
-        existing_names = set([ing[0] for ing in base_ingredients])
-        
-        while len(data) < 300:
-            name = f"{random.choice(prefixes)} {random.choice(roots)}"
-            if name in existing_names:
-                continue
-            existing_names.add(name)
-            
-            func = random.choice(functions)
-            comedogenic = random.randint(0, 5)
-            irritancy = random.randint(0, 5)
-            
-            if func in ['Emollient', 'Thickener']: comedogenic = random.randint(1, 5)
-            if func in ['Preservative', 'Astringent', 'Exfoliant']: irritancy = random.randint(1, 5)
-                
-            good_for = random.choice(good_for_options)
-            if random.random() > 0.7: good_for += f";{random.choice(good_for_options)}"
-            bad_for = random.choice(bad_for_options)
-            if random.random() > 0.8 and bad_for != 'None': bad_for += f";{random.choice(bad_for_options)}"
-                
-            desc = f"A Maester's {func.lower()} crafted in the Citadel for skincare incantations."
-            data.append([name, func, comedogenic, irritancy, good_for, bad_for, desc])
-            
-        df = pd.DataFrame(data, columns=['Ingredient', 'Function', 'Comedogenic Rating', 'Irritancy', 'Good For', 'Bad For', 'Description'])
-        df.to_csv(self.db_path, index=False)
+
 
     def extract_text_from_image(self, image_file):
         """Uses OCR to extract text from an uploaded image."""

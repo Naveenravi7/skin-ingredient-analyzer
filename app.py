@@ -108,7 +108,7 @@ with col1:
     )
     
     st.markdown("### Provide the Parchment")
-    tab1, tab2 = st.tabs(["✍️ Write Inscription", "📜 Upload Scroll (Image)"])
+    tab1, tab2, tab3 = st.tabs(["✍️ Write Inscription", "📜 Upload Scroll (Image)", "📸 Capture with Device"])
     
     ingredients_input = ""
     extracted_text = ""
@@ -129,15 +129,29 @@ with col1:
                 extracted_text = analyzer.extract_text_from_image(uploaded_file)
                 if extracted_text:
                     st.success("Runes deciphered!")
-                    st.text_area("Extracted Text (Edit if needed):", value=extracted_text, height=100, key="ocr_text")
+                    st.text_area("Extracted Text (Edit if needed):", value=extracted_text, height=100, key="ocr_text_upload")
                 else:
                     st.error("The runes are illegible. Tesseract-OCR may not be installed or the image is too blurry.")
+                    
+    with tab3:
+        st.markdown("*Use your device's camera to capture the potion label directly.*")
+        camera_photo = st.camera_input("Capture Label")
+        if camera_photo is not None:
+            with st.spinner("Decoding the captured runes (OCR)..."):
+                extracted_text = analyzer.extract_text_from_image(camera_photo)
+                if extracted_text:
+                    st.success("Runes deciphered!")
+                    st.text_area("Extracted Text (Edit if needed):", value=extracted_text, height=100, key="ocr_text_camera")
+                else:
+                    st.error("The runes are illegible. Make sure the text is clear.")
                 
     if text_input:
         ingredients_input = text_input
-    elif uploaded_file and "ocr_text" in st.session_state:
-        ingredients_input = st.session_state.ocr_text
-    elif uploaded_file and extracted_text:
+    elif uploaded_file and "ocr_text_upload" in st.session_state:
+        ingredients_input = st.session_state.ocr_text_upload
+    elif camera_photo and "ocr_text_camera" in st.session_state:
+        ingredients_input = st.session_state.ocr_text_camera
+    elif (uploaded_file or camera_photo) and extracted_text:
         ingredients_input = extracted_text
         
     analyze_btn = st.button("Unveil the Truth 🔍", use_container_width=True)

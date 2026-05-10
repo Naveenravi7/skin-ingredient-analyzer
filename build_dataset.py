@@ -49,9 +49,8 @@ def build_massive_dataset(target_count=1500):
                 desc = f"Natural plant-derived {func.lower()} from {bot}."
                 data.append([name, func, comedogenic, irritancy, good, bad, desc])
 
-    # Shuffle and trim to exact target count
-    random.shuffle(data)
-    final_data = data[:target_count]
+    # Save all generated data (over 2200 ingredients)
+    final_data = data
     
     # Save to CSV
     os.makedirs('data', exist_ok=True)
